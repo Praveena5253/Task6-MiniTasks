@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information Collection Form</title>
+</head>
+<body>
+    <h2>Personal Information Collection Form (With All Input Elements)</h2>
+    <form>
+        <!-- Text input -->
+        <label for="text">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Number input -->
+        <label for="number">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <!-- Date input -->
+        <label for="date">DOB:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Time input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <!-- Color input -->
+        <label for="color">Favourite Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- Radio buttons -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+
+        <!-- Checkboxes -->
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br><br>
+
+
+        <!-- File input -->
+        <label for="file">Upload VoterID:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Range input -->
+        <label for="range">How strong you are technically good:</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <!-- Select dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india" selected>India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+
+        <!-- Textarea -->
+        <label for="textarea">Comments:</label><br>
+        <textarea id="textarea" name="textarea">Enter text here...</textarea><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

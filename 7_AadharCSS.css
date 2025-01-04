@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.aadhar-card {
+    background-color: white;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header .title {
+    font-size: 1em;
+    color: #777;
+    margin: 0;
+    position: relative;
+    top: -50%; /* Adjust vertical alignment */
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.photo {
+    margin-right: 10px;
+}
+
+.photo img {
+    width: 150px;  
+    height: 150px;  
+    border-radius: 10%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details .detail-item {
+    margin: 5px 0;
+}
+
+.centered-info {
+    text-align: center;
+}
+
+.centered-info hr {
+    border: 0;
+    height: 1px;
+    background: red;
+    margin-top: 5px;
+}
+
+.address-details {
+    margin-top: 20px;
+}
+
+.address-details p {
+    margin: 5px 0;
+}
+
+.address-details .nowrap { 
+    white-space: nowrap; /* Prevent text wrapping */ 
+}

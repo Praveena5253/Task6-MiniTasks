@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form with Default Values</title>
+</head>
+<body>
+    <h2>Form with Default Values</h2>
+    <form>
+        <!-- Text input with default value -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John Doe"><br><br>
+
+        <!-- Radio buttons with default selection -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes with default selection -->
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding" checked>
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br><br>
+
+        <!-- Select dropdown with default selection -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india" selected>India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Textarea with default text -->
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio">Enter your biography here.</textarea><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
